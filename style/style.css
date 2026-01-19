@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-inter{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* shared style */
+*{
+    background-color: #1A0B2E;
+    
+}
+.display-flex{
+    display: flex;
+}
+.margin{
+    margin:1.75rem 12rem;
+}
+.common-color{
+
+}
+
+/* this is header section */
+.company-name{
+    color: #FFFFFF;
+}
+.company-name-second{
+    color: aqua;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.nav-episode{
+    color: #FFFFFF;
+}
+.nav-host{
+    color: #FFFFFF;
+}
+.nav-about{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.navbar > li {
+    list-style: none;
+
+}
+.navbar li >a {
+    text-decoration: none;
+}
+.nav-container{
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    gap: 2rem;
+}
+.nav-btn{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 0.75rem 2.25rem 0.75rem 1rem;
+    border-radius: 10000px;
+    background-image: url('../assets/hero-circle.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+/* front-container */
+.circle-main{
+   
+    background: transparent;
+    width: 70%;
+    height: auto;
+}
+.hero{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* wave background */
+.wave-bg{
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* content (NO background here) */
+.content{
+  position: relative;
+  top: -100px;
+  z-index: 2;
+  text-align: center;
+  background: transparent;
+  box-shadow: none;
+}
+
+.content{
+    position: relative;
+    display: inline-block;
+}
+.overlay-img{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    background: transparent;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: auto;
+}
+
+/* hero-des*/
+.hero-des{
+    
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fbf9fd;
+}
+/* hero-btn */
+.hero-btn{
+    position: relative;
+    background: transparent;
+}
+.hero-btn-first{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10000px;
+    background-image: url('../assets/hero-circle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:0.75rem 1.25rem 0.75rem 1.5rem;
+}
+/* hero-second-btn */
+.hero-second-btn{
+    color: #00FF88;
+    border-radius: 10000px;
+    padding: 0.75rem 1.25rem 0.75rem 1.5rem;
+    position: relative;
+    background: transparent;
+    border: 2px solid #00FF88;
+}
+.fa-brands{
+    background: transparent;
+    padding-right: 0.5rem;
+}
+.fa-regular{
+    padding-right: 0.5rem;
+}
+
+/* about-section */
+.about-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-section > h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+.about-section > p{
+    color: #FFFFFF;
+    padding: 0px 8rem;
+}
+/* card-section */
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 8rem 0 4rem 0;
+}
+.common-card-color{
+    color: #00FF88;
+}
+.common-card-font{
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+.common-card-para{
+    color: #FFFFFF;
+}
