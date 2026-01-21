@@ -480,45 +480,119 @@
 
 @media (max-width: 576px) {
 
+  .margin {
+    padding: 1.5rem 1rem;
+  }
 
-    .hamburger {
-        display: block;
-    }
-
+  .nav-container {
+    flex-wrap: wrap;
+  }
+  .navbar {
+    width: 100%;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+  .nav-btn {
+    margin: 0.75rem auto 0;
+  }
  
-    .navbar,
-    .nav-btn {
-        display: none;
-    }
+ 
+  .hero {
+    height: auto;
+    min-height: 100vh;
+    padding: 4rem 1rem;
+  }
+  .circle-main {
+    width: 90%;
+  }
+  .overlay-img {
+    width: 70px;
+    top:35%;
+  }
 
-   
-    .navbar {
-        position: absolute;
-        top: 70px;
-        left: 0;
-        width: 100%;
-        flex-direction: column;
-        gap: 1.5rem;
-        padding: 20px 0;
-        background: #0f172a;
-        text-align: center;
-    }
+  .hero-des {
+    font-size: 0.95rem;
+    padding: 1rem 0.5rem;
+  }
+  .hero-btn {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  .hero-btn-first,
+  .hero-second-btn {
+    width: 100%;
+    max-width: 260px;
+    margin-bottom: 0.75rem;
+  }
 
-   
-    .nav-toggle:checked ~ .navbar,
-    .nav-toggle:checked ~ div .nav-btn {
-        display: flex;
-    }
+  .about-section > h1 {
+    font-size: 1.75rem;
+  }
+  .about-section > p {
+    padding: 0 0.5rem;
+  }
 
-    .nav-btn {
-        margin: 10px auto 0;
-    }
+  
+  .card-section {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 3rem 0 2rem;
+  }
 
-    .nav-container {
-        position: relative;
-    }
+  /* ---------- FEATURES ---------- */
+  .box-head {
+    font-size: 1.75rem;
+  }
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  .feature-card-first,
+  .feature-card-second,
+  .feature-card-third,
+  .feature-card-fouth {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  /* ---------- EPISODES ---------- */
+  .prodcast-head {
+    font-size: 1.75rem;
+  }
+  .prodcast {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    justify-items: center;
+  }
+
+  /* ---------- HOST ---------- */
+  .host-head {
+    font-size: 1.75rem;
+  }
+  .host-info {
+    flex-direction: column;
+    text-align: center;
+  }
+  .host-photo {
+    margin: 0 auto 1rem;
+  }
+  .social-media {
+    justify-content: center;
+  }
+
+  /* ---------- FOOTER ---------- */
+  .footer-title {
+    font-size: 2rem;
+  }
+  .footer-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }
-
 
 
 
